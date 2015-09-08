@@ -19,6 +19,7 @@ The :class:`wordpress_xmlrpc.methods.media.UploadFile` method can be used to upl
 	data = {
 		'name': 'picture.jpg',
 		'type': 'image/jpeg',  # mimetype
+        'post_id':1
 	}
 
 	# read the binary file and let the XMLRPC library encode it into base64
